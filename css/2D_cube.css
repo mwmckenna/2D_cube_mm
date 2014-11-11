@@ -1,0 +1,30 @@
+/*#cube *
+{
+	position: absolute;
+	box-sizing:content-box;
+	moz-box-sizing:content-box;
+}*/
+
+/*body
+{
+	background:;
+}*/
+
+#cube
+{
+	position: relative;
+	width: 600px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+#cube .top .1
+{
+	background-color: black;
+	/*right: 0px;*/
+	width: 300px;
+	height: 200px;
+	-webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
